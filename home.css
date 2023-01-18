@@ -1,0 +1,230 @@
+.home-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.home-section-separator {
+  width: 100%;
+  height: 1px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-700);
+}
+.home-features {
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-tenunits);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-tenunits);
+}
+.home-image {
+  width: 247px;
+  height: 160px;
+  object-fit: cover;
+}
+.home-text {
+  width: 798px;
+  height: 119px;
+  text-align: center;
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.home-text04 {
+  color: var(--dl-color-gray-500);
+  text-align: center;
+}
+.home-image1 {
+  width: 964px;
+  height: 392px;
+  object-fit: cover;
+}
+.home-container1 {
+  flex: 0 0 auto;
+  width: 890px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.home-text09 {
+  color: rgb(0, 0, 0);
+  opacity: 0.7;
+}
+.home-link {
+  opacity: 0.7;
+  text-decoration: none;
+}
+.home-link1 {
+  opacity: 0.7;
+}
+.home-icon-group {
+  display: flex;
+  opacity: 0.7;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.home-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 32px;
+}
+.home-icon2 {
+  width: 16px;
+  height: 16px;
+  margin-right: 32px;
+}
+.home-icon4 {
+  width: 16px;
+  height: 16px;
+}
+@media(max-width: 1600px) {
+  .home-image {
+    width: 257px;
+  }
+  .home-container1 {
+    width: 874px;
+    height: auto;
+  }
+  .home-text09 {
+    color: var(--dl-color-gray-black);
+  }
+  .home-link {
+    color: rgb(0, 0, 0);
+    opacity: 0.7;
+  }
+  .home-link1 {
+    color: var(--dl-color-gray-black);
+  }
+  .home-icon-group {
+    opacity: 0.7;
+  }
+}
+@media(max-width: 1200px) {
+  .home-features {
+    width: 100%;
+  }
+  .home-image {
+    width: 233px;
+  }
+  .home-image1 {
+    width: 864px;
+  }
+  .home-container1 {
+    width: 802px;
+    height: 29px;
+  }
+  .home-text09 {
+    color: var(--dl-color-gray-black);
+  }
+  .home-link {
+    color: var(--dl-color-gray-black);
+    align-self: center;
+    text-decoration: underline;
+  }
+  .home-link1 {
+    color: var(--dl-color-gray-black);
+  }
+  .home-icon-group {
+    opacity: 0.7;
+  }
+}
+@media(max-width: 991px) {
+  .home-features {
+    height: 835px;
+  }
+  .home-image {
+    width: 233px;
+  }
+  .home-image1 {
+    width: 599px;
+    height: 264px;
+  }
+  .home-container1 {
+    width: 782px;
+    height: auto;
+  }
+  .home-icon-group {
+    opacity: 0.7;
+  }
+}
+@media(max-width: 767px) {
+  .home-features {
+    height: 814px;
+  }
+  .home-image {
+    width: 251px;
+  }
+  .home-text {
+    width: 675px;
+  }
+  .home-image1 {
+    width: 585px;
+    height: 252px;
+  }
+  .home-container1 {
+    width: 274px;
+    height: 134px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .home-text09 {
+    margin: 0px;
+  }
+  .home-icon-group {
+    opacity: 0.7;
+  }
+}
+@media(max-width: 479px) {
+  .home-features {
+    height: 762px;
+    padding-bottom: 64px;
+  }
+  .home-image {
+    width: 214px;
+  }
+  .home-text {
+    color: var(--dl-color-gray-black);
+    width: 382px;
+    height: 123px;
+    font-size: 30px;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 1.22;
+    padding-bottom: 0px;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .home-image1 {
+    width: 358px;
+    height: 229px;
+  }
+  .home-container1 {
+    width: auto;
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .home-text09 {
+    margin: 0px;
+    text-align: center;
+  }
+  .home-link {
+    color: var(--dl-color-gray-black);
+    text-decoration: underline;
+  }
+  .home-icon-group {
+    opacity: 0.7;
+  }
+}
