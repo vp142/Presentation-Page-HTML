@@ -5,161 +5,153 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
+  justify-content: flex-end;
 }
-.home-section-separator {
-  width: 100%;
-  height: 1px;
+.home-container1 {
+  top: var(--dl-space-space-tenunits);
+  left: 0px;
+  right: 0px;
+  width: 886px;
+  bottom: var(--dl-space-space-tenunits);
+  height: 832px;
+  margin: auto;
   display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  background-color: var(--dl-color-gray-700);
-}
-.home-features {
-  width: 100%;
-  display: flex;
-  position: relative;
-  max-width: var(--dl-size-size-maxcontent);
+  position: absolute;
+  align-self: center;
   align-items: center;
-  padding-top: var(--dl-space-space-tenunits);
-  padding-left: var(--dl-space-space-tripleunit);
-  padding-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
-  padding-bottom: var(--dl-space-space-tenunits);
+  justify-content: center;
 }
 .home-image {
-  width: 247px;
-  height: 160px;
+  width: 311px;
+  height: 121px;
   object-fit: cover;
 }
 .home-text {
-  width: 798px;
-  height: 119px;
+  width: 628px;
+  height: 99px;
+  margin-top: var(--dl-space-space-fiveunits);
   text-align: center;
-  margin-bottom: var(--dl-space-space-fourunits);
 }
 .home-text04 {
   color: var(--dl-color-gray-500);
+  margin-top: var(--dl-space-space-fiveunits);
   text-align: center;
 }
 .home-image1 {
-  width: 964px;
-  height: 392px;
+  width: 556px;
+  height: 265px;
+  align-self: center;
+  margin-top: var(--dl-space-space-fiveunits);
   object-fit: cover;
 }
-.home-container1 {
-  flex: 0 0 auto;
-  width: 890px;
-  height: auto;
+.home-footer {
+  left: 0px;
+  width: 100%;
+  bottom: 0px;
+  height: 71px;
   display: flex;
+  position: absolute;
+  max-width: 1400px;
+  margin-top: var(--dl-space-space-fiveunits);
   align-items: center;
-  flex-direction: row;
+  padding-top: 32px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 32px;
   justify-content: space-between;
 }
+.home-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
 .home-text09 {
-  color: rgb(0, 0, 0);
   opacity: 0.7;
+  font-size: 12px;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
 }
 .home-link {
   opacity: 0.7;
+  font-size: 12px;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .home-link1 {
   opacity: 0.7;
+  font-size: 12px;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .home-icon-group {
   display: flex;
   opacity: 0.7;
   align-items: center;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
   flex-direction: row;
   justify-content: space-between;
+}
+.home-link2 {
+  display: contents;
 }
 .home-icon {
   width: 16px;
   height: 16px;
-  margin-right: 32px;
+  margin-right: 32;
+  text-decoration: none;
+}
+.home-link3 {
+  display: contents;
 }
 .home-icon2 {
   width: 16px;
   height: 16px;
   margin-right: 32px;
+  text-decoration: none;
+}
+.home-link4 {
+  display: contents;
 }
 .home-icon4 {
   width: 16px;
   height: 16px;
+  margin-right: 32px;
+  text-decoration: none;
 }
-@media(max-width: 1600px) {
-  .home-image {
-    width: 257px;
-  }
-  .home-container1 {
-    width: 874px;
-    height: auto;
-  }
-  .home-text09 {
-    color: var(--dl-color-gray-black);
-  }
-  .home-link {
-    color: rgb(0, 0, 0);
-    opacity: 0.7;
-  }
-  .home-link1 {
-    color: var(--dl-color-gray-black);
-  }
-  .home-icon-group {
-    opacity: 0.7;
-  }
+.home-link5 {
+  display: contents;
 }
-@media(max-width: 1200px) {
-  .home-features {
-    width: 100%;
-  }
-  .home-image {
-    width: 233px;
-  }
-  .home-image1 {
-    width: 864px;
-  }
-  .home-container1 {
-    width: 802px;
-    height: 29px;
-  }
-  .home-text09 {
-    color: var(--dl-color-gray-black);
-  }
-  .home-link {
-    color: var(--dl-color-gray-black);
-    align-self: center;
-    text-decoration: underline;
-  }
-  .home-link1 {
-    color: var(--dl-color-gray-black);
-  }
-  .home-icon-group {
-    opacity: 0.7;
-  }
+.home-icon6 {
+  width: 16px;
+  height: 16px;
+  text-decoration: none;
 }
 @media(max-width: 991px) {
-  .home-features {
-    height: 835px;
-  }
   .home-image {
     width: 233px;
   }
+  .home-text {
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
   .home-image1 {
-    width: 599px;
-    height: 264px;
-  }
-  .home-container1 {
-    width: 782px;
-    height: auto;
-  }
-  .home-icon-group {
-    opacity: 0.7;
+    width: 471px;
+    height: 179px;
   }
 }
 @media(max-width: 767px) {
-  .home-features {
-    height: 814px;
+  .home-container1 {
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    margin: auto;
+    margin-right: 0px;
   }
   .home-image {
     width: 251px;
@@ -171,25 +163,20 @@
     width: 585px;
     height: 252px;
   }
-  .home-container1 {
-    width: 274px;
-    height: 134px;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
+  .home-footer {
+    padding-left: 32px;
+    padding-right: 32px;
   }
   .home-text09 {
-    margin: 0px;
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
   }
-  .home-icon-group {
+  .home-icon {
     opacity: 0.7;
   }
 }
 @media(max-width: 479px) {
-  .home-features {
-    height: 762px;
-    padding-bottom: 64px;
-  }
   .home-image {
     width: 214px;
   }
@@ -209,22 +196,18 @@
     width: 358px;
     height: 229px;
   }
-  .home-container1 {
-    width: auto;
-    height: auto;
-    align-items: center;
+  .home-footer {
+    height: 64px;
+    padding: var(--dl-space-space-unit);
     flex-direction: column;
-    justify-content: space-between;
   }
   .home-text09 {
-    margin: 0px;
-    text-align: center;
-  }
-  .home-link {
-    color: var(--dl-color-gray-black);
-    text-decoration: underline;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
   }
   .home-icon-group {
-    opacity: 0.7;
+    padding-top: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-unit);
   }
 }
